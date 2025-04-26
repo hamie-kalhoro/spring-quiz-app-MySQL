@@ -1,7 +1,9 @@
 package com.hamidz.quizApp.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "questions")
 public class Question {
